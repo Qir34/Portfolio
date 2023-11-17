@@ -1,0 +1,302 @@
+
+body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  background-image: url("image/ground.jpeg");
+
+  }
+  /*----cricket fair---*/
+  #head{
+    background-color: green;
+    font-family: Ariel;
+    font-style: italic;
+    text-decoration:Underline;
+    border:1px solid black;
+    color:black;
+      background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+    /*----navbar---*/  
+.navbar{
+  width:100%;
+  background-color: black;
+  color: white;
+}
+/*----navbar links---*/
+.navbar a{
+  #float:left;
+  text-align:left;
+  padding:13px;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+  }
+.navbar a:hover{
+  background-color:#ff99ce;
+}
+.active{
+  background-color:#9e9eff;
+  }
+@media screen and (max-width:500px)
+{
+  .navbar a
+float:none;
+  display:block;}
+  #in{
+      border: 1px solid #665544;
+      color: Green;
+      font-style:italic;
+     
+  }
+  #in:hover{
+  background-color: pink;
+  
+      
+  }
+  .search{
+      display :inline;
+      margin-left:220px;
+      font-style: italic;
+  }
+  /*----Welcome to cricket fair---*/
+ #black{
+     height: 100%;
+     color: yellow;
+     text-align: center;
+     
+ }
+ /*----offers---*/
+ #here{
+     text-align: center;
+     text-decoration: none;
+     color: BLACK;
+     border : 2px solid black;
+     background-color: #ffffff;
+        border:1px solid black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+    padding:10px;
+    font-style: oblique;
+    background-color: skyblue;}
+  
+ .inp:hover{
+     opacity:60%;
+    transform: scale(1.2);
+ }
+ /*----Welcome to cricekt fair---*/
+ .para{
+     margin-top: 250px;
+     margin-bottom: 250px;
+     font-style: italic;
+    width: 40;
+    height: 30;
+       border:1px solid black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+ 
+ }
+ /*----Div one---*/
+  #wrapper{
+      display: flex;
+      justify content: space evenly;
+      border: 1px solid transparent;
+      margin-top: 50px;
+      margin-right: 0px;
+      background-image:url("image/ball.jpeg");
+      padding:100px 100px 100px 100px;
+  }
+  /*----img watch now---*/
+  .one{
+      margin:0;
+      padding: 0;
+      display: block;
+      border: 3px solid green;
+      margin: 10px 20px 20px 30px;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      border-style: groove;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+  }
+  .one:hover{
+      opacity:50%;
+      transform: scale(1.2);
+  }
+  /*----img live ---*/
+  .two{
+      margin:0;
+      padding: 0;
+      display: block;
+      border: 3px dotted Green;
+      margin: 10px 20px 20px 30px;
+      width: 160%;
+      height: 160%;
+      border-radius: 10px;
+          border-style: groove;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+  }
+  .two:hover{
+      opacity:50%;
+      transform: scale(1.2);
+  }
+  /*----img download ---*/
+.three{
+    margin:0;
+      padding: 0;
+      display: block;
+      border: 3px dashed green;
+      margin: 10px 20px 20px 30px;
+      width: 180%;
+      height: 200%;
+      border-radius: 10px;
+         border-style: groove;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+}
+.three:hover{
+      opacity:50%;
+      transform: scale(1.2);
+  }
+#htwo{
+    font-size: 20px;
+    
+    
+}
+#hthree{
+    font-size: 20px;
+}
+/*----games and earn---*/
+.headd{
+    border: 1px solid black;
+    text-align: center;
+color: White;
+background-color:Red;
+margin-top: 50px;
+    
+}
+/*----div2---*/
+#second{
+border: 1px solid transparent;
+display: flex;
+justify content: space evenly;
+background-image:url("image/sam.jpg");
+}
+/*----PLAY NOW---*/
+.divtwo{
+    border:1px solid red;
+    margin: 50px 50px 50px 50px;
+    border-radius: 20px;
+        border-style: groove;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+}
+.divtwo:hover{
+    transform: scale(1.2);
+}
+/*----Play&earn---*/
+
+.divthree{
+   border:1px solid red;
+    margin: 50px 50px 50px 50px;
+    border-radius: 20px;
+        border-style: groove;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+    
+}
+.divthree:hover{
+    transform: scale(1.2);
+}
+/*----All bordered text class---*/
+.play{
+    border: none;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border:2px solid black;
+  border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+ 
+}
+a:hover {
+  background-color: yellow;
+}
+.img:hover{
+           opacity: 70%;
+   
+    transform: scale(1.2);
+    
+}
+/*----Experience---*/
+#last{
+    border:1px solid black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-shadow: 1px 1px 0px #000000;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+/*----editing of experience line---*/
+#edit{
+    text-align: center;
+    color: Yellow;
+    font-family: sent serif;
+    text-decoration:blink;
+    font-style:Italic;
+    border: 2px solid black;
+    margin:10px 300px 10px 300px;
+    border-radius: 40px;
+    background-color:Black;
+    color:white;}
+    /*----one last---*/
+    #onelast{
+        border: 1px solid black;
+        display:flex;
+        justify content: space evenly;
+        padding:0px 270px 0px 270px;
+        background-color:white;
+        margin-bottom:30px;
+    }
+    .act{
+        border: 1px solid Transparent;
+        border-radius: 500px;
+        margin: 30px 0px 30px 0px;
+        
+     
+    }
+    .act:hover{
+        opacity: 20;
+        transform: scale(2.0);
+    }
+    #footer{
+        width:100%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  padding:10px 0px 10px 0px;
+    }
+    #footer a{
+        #float:center;
+  padding:13px;
+  color:White;
+  text-decoration:none;
+  font-size:18px;
+    }
+    
+
+
+
